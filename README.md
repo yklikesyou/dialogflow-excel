@@ -12,6 +12,6 @@ Family |2 | Does your family live in a house or apt? | We live in a apt.
 4. 마지막으로, 해당파일을 다시 압축해서 `Import from zip`을 통해 업로드 하면, 새로운 intents들이 추가가 된다. 
 5. 만약, import 할 때에 에러가 난다면, 원본 파일의 json의 내용들과 비교해본다.
  >예를 들면, 에러가 나서 원본파일과 다른 부분을 보충했더니 잘 import가 됐다. 
- >`Family1.json`은 parameter값만 변경했고, 
- >`Family1_usersays`는 count부터 그 아래 전부 원래 json에서값으로 변경했더니 됐다.
+ >`Family1.json`은 parameter값만 원본 json, 
+ >`Family1_usersays`는 count부터 그 아래 전부 원본 json의 값으로 변경했더니 됐다.
 
