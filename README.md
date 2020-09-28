@@ -15,3 +15,4 @@ Family |2 | Does your family live in a house or apt? | We live in a apt.
  >`Family1.json`은 parameter값만 원본 json, 
  >`Family1_usersays`는 count부터 그 아래 전부 원본 json의 값으로 변경했더니 됐다.
 
+:clap: 참고: [관련강의](https://www.youtube.com/watch?v=v7iclS28Urc&list=PLRx0vPvlEmdCb33sBZGXzVOMY_seqnWJT&index=5)
