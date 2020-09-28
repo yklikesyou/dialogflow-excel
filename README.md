@@ -13,6 +13,6 @@ Family |2 | Does your family live in a house or apt? | We live in a apt.
 5. 만약, import 할 때에 에러가 난다면, 원본 파일의 json의 내용들과 비교해본다.
  >예를 들면, 에러가 나서 원본파일과 다른 부분을 보충했더니 잘 import가 됐다. 
  >`Family1.json`은 parameter값만 원본 json, 
- >`Family1_usersays`는 count부터 그 아래 전부 원본 json의 값으로 변경했더니 됐다.
+ >`Family1_usersays`는 count부터 그 아래 전부 원본 json의 값으로 변경함.
 
 :clap: 참고: [관련강의](https://www.youtube.com/watch?v=v7iclS28Urc&list=PLRx0vPvlEmdCb33sBZGXzVOMY_seqnWJT&index=5)
