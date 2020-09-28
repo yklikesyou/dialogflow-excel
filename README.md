@@ -7,4 +7,6 @@ Family |1 | How many people are there in your family? | There are 5 people.
 Family |2 | Does your family live in a house or apt? | We live in a apt. 
 
 1. 현재의 agent에서 설정 -> Export and Import -> Export as zip으로 내보내기를 한다. 
-2. import 하려는 엑셀파일(xlsx)
+2. import 하려는 엑셀파일이름(sample.xlsx)을 `GetExcel_Info.py`에 넣고 돌린다 -> (질문: , 답변: )의 형식으로 값이 나올 것. 
+
+3.
