@@ -1,3 +1,25 @@
+### dialogflow 활용하기_basic :+1:
+intents 작성 후, 그에 따른 더 많은 intents를 추가하기  
+>1. Intents page에서 `Add follow-up intent`  
+>2. custom형태 = 자유롭게 만들 수 있는 형태로 생성하기 (이렇게 하면 연계된 intent 생성이 됨)  
+
+entity 추가하기
+>1. intent에서 단어를 드래그 하면 바로 뜸
+>2. 해당 단어를 나타내는 entity로 같은 항목의 단어들을 묶을 수 있음 (ex. CourseName)
+>* 같은 항목의 단어들을 같은 entity로 묶어주기 (ex.CourseName으로 python jsp등 묶기)
+
+response에서 entity 활용하기
+>1. 사용자가 입력한 entity를 response에서 집어내려면, `$CourseName` 이런식으로 entity앞에 `$`붙이기
+(ex. 정말로 `$CourseName`을 신청하시겠습니까?)
+>* 참고로, 자동적으로 잡는 entity가 있음 (ex. 네, 등) -> 안쓰겠다고 취소하면 됨
+
+연계형 intent에서, 추가된 custom intent에서 상위 intent의 entity를 활용하기
+>1. response에서, `#상위intent이름.entity이름` 으로 나타낼 수 있음. (ex. `#CourseReservation-custom-followup.CourseName` -> 참고로 # 만 쳐도 알아서 잘 뜸)
+>* 이때, entity는 같이 공유하는 거지만, 상위 intent의 response로 받는 entity답변을 사용하는 걸 말하는 것임.
+
+참고로, integrations에서 서버나 어플과 연동하기 쉬움.
+<br><br><br>
+
 ### dialogflow에 대용량 엑셀파일(xlsx)을 한 번에 넣는 방법:+1:
 0. 우선, 다음과 같은 형태의 엑셀파일에서 1 과 2는 서로다른 intent로 가정한다.
 
