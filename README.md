@@ -1,4 +1,4 @@
-### dialogflow 활용하기_basic :+1:
+### dialogflow 활용하기 basic :+1:
 intents 작성 후, 그에 따른 더 많은 intents를 추가하기  
 >1. Intents page에서 `Add follow-up intent`  
 >2. custom형태 = 자유롭게 만들 수 있는 형태로 생성하기 (이렇게 하면 연계된 intent 생성이 됨)  
